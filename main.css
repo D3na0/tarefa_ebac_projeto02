@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  #contactForm {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+  }
+  
+  #contactForm label {
+    flex-basis: 100%;
+    margin-bottom: 0.5rem;
+  }
+  
+  #contactForm input[type="text"],
+  #contactForm input[type="tel"] {
+    flex-basis: calc(100% - 100px);
+    margin-right: 1rem;
+    padding: 0.5rem;
+  }
+  
+  #contactForm button[type="submit"] {
+    flex-basis: 100px;
+    padding: 0.5rem;
+  }
+  
+  #contactsTable {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  #contactsTable th,
+  #contactsTable td {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+  }
+  
+  #contactsTable th {
+    background-color: #f2f2f2;
+  }
+  
+  #message {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: green;
+  }
